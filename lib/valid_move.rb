@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?(position)
+def valid_move?(number)
   !position_taken? && index.between(0, 8)?
   true : false
 end
